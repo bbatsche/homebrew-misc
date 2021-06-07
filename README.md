@@ -1,4 +1,6 @@
-# Bbatsche Misc
+# Miscellaneous Homebrew Formulae
+
+Collection of [Homebrew](https://brew.sh/) formulae I like or need.
 
 ## How do I install these formulae?
 
