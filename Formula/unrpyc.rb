@@ -10,7 +10,7 @@ class Unrpyc < Formula
   def install
     prefix.install "unrpyc.py"
     prefix.install "deobfuscate.py"
-    prefix.install Dir["decompiler"]
+    prefix.install "decompiler"
 
     bin.install_symlink "#{prefix}/unrpyc.py" => "unrpyc"
   end

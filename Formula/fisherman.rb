@@ -1,5 +1,5 @@
 class Fisherman < Formula
-  desc "fish plugin manager"
+  desc "Fish plugin manager"
   homepage "https://github.com/jorgebucaran/fisher"
 
   url "https://github.com/jorgebucaran/fisher/archive/refs/tags/4.3.0.tar.gz"
