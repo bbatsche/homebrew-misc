@@ -10,7 +10,8 @@ class Fisherman < Formula
   depends_on "fish"
 
   def install
-    fish_function.install "fisher.fish" => "fisher.fish"
+    fish_function.install "functions/fisher.fish" => "fisher.fish"
+    fish_completion.install "completions/fisher.fish" => "fisher.fish"
 
     ohai "You may need to restart any open terminal sessions for changes to take effect."
   end
